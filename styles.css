@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(images/ecommerce.jpg);
+    background-size:1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4cae4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c01a22;
+}
+
+#order-details {
+    margin-top: 40px;
+}
+
+#order-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#order-list li {
+    background-color: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+}
